@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.cache
+pytest_cache/
+nosetests.xml
+test-results/
+
+# MyPy & Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# pipenv / poetry / hatch / pdm
+Pipfile.lock
+poetry.lock
+.pdm.toml
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and dumps
+*.log
+*.out
+*.pid
+*.bak
+*.swp
+*.tmp
+
+# Environment / config
+.env
+.env.*
+*.local
+secrets.*
+config.yml
+
+# macOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+*.img
+*.container
+docker-compose.override.yml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python Wheels
+*.whl
+
+# Others (customize if needed)
+*.sqlite3
+*.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+.wrangler/
+.dev.vars
+backup/*
